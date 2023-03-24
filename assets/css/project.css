@@ -49,8 +49,6 @@ img{
 
 .nav-menu ul li a:hover{
     color: #E0AC25;
-    text-decoration: ;
-    box-shadow: ;
 }
 
 .nav-menu ul li a:active{
@@ -76,25 +74,56 @@ hr {
 /* Content Section Start */
 .content {
     margin: auto;
+    padding-bottom: 25px;
     background-color:  #f1f1f1;
-    height: 360px;
+    height: auto;
     width: 531px;
     border: solid 2px #97834F;
     border-radius: 10px;
 }
 
 .top {
-    margin-top: 15px;
+    margin-top: -10px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
+    color: #97834F;
 }
 
 .top h1{
     font-size: 36px;
-    color: #97834F;
+    margin-bottom: 0px;
+}
+
+.top p{
+    margin: 5px 50px;
+}
+
+.isi {
+    margin: 20px 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.cards {
+    margin: auto;
+    width: 490px;
+    height: 144px;
+    background-color:  #000000;
+    border: solid 2px #97834F;
+    border-radius: 10px;
+}
+
+.cards .left {
+    width: 200px;
+    float: left;
+    background-color: red;
+}
+
+.cards .right {
+    background-color: blue;
 }
 
 
