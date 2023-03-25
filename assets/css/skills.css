@@ -82,7 +82,6 @@ hr {
 /* Content Section Start */
 .content {
     margin: auto;
-    padding-bottom: 25px;
     background-color:  #f1f1f1;
     height: auto;
     width: 531px;
@@ -124,7 +123,7 @@ hr {
 
 /* Isi Section Start */
 .isi {
-    margin: 20px 15px;
+    margin: 15px;
     display: flex;
     justify-content: center;
 }
@@ -201,6 +200,35 @@ hr {
     text-align: left;
     padding-top: 2px;
   }
+
+  .download {
+    margin-top: -20px;
+    color: #97834F;
+    display: flex;
+    justify-content: center;
+  }
+
+  .download a{
+    color: rgb(3 105 161);
+  }
+
+  .download a:hover{
+    color: #E0AC25;
+  }
+
 /* Isi Section End */
 
 /* Content Section End */
+
+footer{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #f1f1f1;
+    width: 531px;
+    height: auto;
+    border: solid 2px #97834F;
+    border-radius: 10px;
+    color: #97834F;
+}

@@ -178,3 +178,16 @@ hr {
 }
 
 /* Content Section End */
+
+footer{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #f1f1f1;
+    width: 531px;
+    height: auto;
+    border: solid 2px #97834F;
+    border-radius: 10px;
+    color: #97834F;
+}
