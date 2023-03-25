@@ -72,3 +72,49 @@ hr {
     border: 1px solid #97834F;
 }
 /* Main Section End */
+
+/* Content Section Start */
+.content {
+    margin: auto;
+    background-color:  #f1f1f1;
+    height: auto;
+    width: 531px;
+    border: solid 2px #97834F;
+    border-radius: 10px;
+}
+
+.top {
+    margin-top: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: #97834F;
+}
+
+.top h1{
+    font-size: 36px;
+    margin-bottom: 0px;
+}
+
+.content .isi {
+    color: #97834F;
+    text-align: left;
+    margin: 25px;
+
+}
+
+.content .isi a{
+    color: rgb(3 105 161);
+}
+
+.content .isi i{
+    color: #97834F;
+    font-size: 18px;
+}
+
+.content .isi .fa{
+    color: #97834F;
+    font-size: 22px;
+}

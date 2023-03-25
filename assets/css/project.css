@@ -117,18 +117,21 @@ hr {
 .column .cards {
     width: 40%;
     float: left;
-    margin: 10px;
+    margin: 15px 10px 15px 10px;
 }
 
 .cards img{
     border: solid 2px #97834F;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 190px;
 }
 
-
-
 .column .cards-right{
-    margin-top: -5px;
+    width: 250px;
+    margin-top: 0px;
     margin-left: -5px;
 }
 
