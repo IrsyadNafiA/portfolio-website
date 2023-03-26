@@ -6,7 +6,6 @@
 body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: #f1f1f1;
-    height: 100vh;
 }
 
 .img{
@@ -89,6 +88,10 @@ hr {
     border-radius: 10px;
 }
 
+.content hr {
+    width: 450px;
+}
+
 /* Top Section Start */
 .top {
     margin-top: -10px;
@@ -106,7 +109,7 @@ hr {
 }
 
 .top img{
-    margin-top: -20px;
+    margin-top: -15px;
     width: 50px;
     height: 50px;
     object-fit: cover;
@@ -116,14 +119,14 @@ hr {
 
 .top p{
     color: #97834F;
-    margin: 5px 50px;
+    margin: 15px 50px;
     
 }
 /* Top Section End */
 
 /* Isi Section Start */
 .isi {
-    margin: 15px;
+    margin: 10px;
     display: flex;
     justify-content: center;
 }
@@ -202,10 +205,27 @@ hr {
   }
 
   .download {
-    margin-top: -20px;
+    margin-top: ;
     color: #97834F;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .download h1{
+    margin: 0px;
+    margin-bottom: 10px;
+    font-size: 30px;
+  }
+
+  .cv img{
+    height: 335px;
+    border: solid 2px;
+    border-radius: 10px;
+  }
+
+  .download p {
+    margin-top: 5px;
   }
 
   .download a{
